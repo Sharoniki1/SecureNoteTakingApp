@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="50dp"
+    android:backgroundTint="@color/md_amber_600">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/notelist_LAY_onenote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/notelist_LBL_notename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="30dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.cardview.widget.CardView>

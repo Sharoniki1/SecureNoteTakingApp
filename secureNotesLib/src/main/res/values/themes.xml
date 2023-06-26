@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SecureNoteTakingApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">@android:color/white</item>-->
+        <!-- Customize your theme here. -->
+
+
+
+        <!--        <item name="android:windowLightStatusBar">true</item>-->
+
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.App.ExtendedFloatingActionButton</item>
+        <item name="floatingActionButtonStyle">@style/Widget.App.FloatingActionButton</item>
+
+    </style>
+
+    <style name="Theme.SecureNoteTakingApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SecureNoteTakingApp.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="Theme.SecureNoteTakingApp.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark" />
+
+    <!--    FloatingActionButton-->
+
+    <style name="Widget.App.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="Widget.App.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.FloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.FloatingActionButton" parent="">
+        <item name="colorSecondary">@color/fab_back</item>
+        <item name="colorOnSecondary">@color/fab_inner</item>
+        <item name="colorOnSurface">@color/fab_surface</item>
+    </style>
+
+    <style name="Widget.App.WhiteBlackFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.WhiteBlackFloatingActionButton</item>
+    </style>
+
+    <style name="ThemeOverlay.App.WhiteBlackFloatingActionButton" parent="">
+        <item name="colorSecondary">@color/fab_wb_back</item>
+        <item name="colorOnSecondary">@color/fab_wb_inner</item>
+        <item name="colorOnSurface">@color/fab_wb_surface</item>
+    </style>
+
+
+    <!-- ShapeableImageView-->
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="halfCircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">36%</item>
+    </style>
+
+    <style name="bigRoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+
+
+
+</resources>

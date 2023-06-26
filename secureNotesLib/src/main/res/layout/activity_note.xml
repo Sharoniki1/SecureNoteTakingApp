@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_amber_A200">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/note_TXT_notename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColorHint="@color/colorPrimaryVariant"
+        android:hint="Note name"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/note_TXT_notecontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@color/colorPrimaryVariant"
+        android:textSize="25dp"
+        android:gravity="top|start"
+        android:layout_alignParentStart="true"
+        android:hint="type..."
+        android:layout_below="@id/note_TXT_notename"
+        android:layout_above="@id/note_BTN_done"/>
+
+    <Button
+        android:id="@+id/note_BTN_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="DONE"
+        android:textColor="@color/black"/>
+
+
+
+</RelativeLayout>
