@@ -2,7 +2,9 @@
 
 This application is intended for encrypted notes using AES. In the login window password should be provided as battery
 percentage. The encrypted notes are locally saved on device (using shared preferences).
- 
+
+![alt text]((https://github.com/Sharoniki1/SecureNoteTakingApp/blob/master/WhatsApp Image 2023-07-05 at 15.19.29.jpeg?raw=true)
+
 
 # Description
 
