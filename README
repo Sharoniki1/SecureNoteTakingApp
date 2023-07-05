@@ -2,9 +2,6 @@
 
 This application is intended for encrypted notes using AES. In the login window password should be provided as battery
 percentage. The encrypted notes are locally saved on device (using shared preferences).
-
-![readmore](https://github.com/Morika1/ReadMoreApp/assets/68543807/f64500cb-7f16-4d44-a077-6ba0ce558abf)
-
  
 
 # Setup
