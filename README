@@ -11,7 +11,7 @@ When the application opens, a login window appears. The identification process r
 After login in, all notes were saved before will be decrypted and shown in the notes list screen.
 At the bottom of the screen, there is a '+' button to create a new note.
 
-Clicking on existing note/new note button will open the note screen.
+Clicking on existing note/new note button will open the note screen and allow editing.
 The changes will be updated in both notes list screen and re-encrypted to device memory.
 
 Re- encrypting the whole data after every change will garentee strong detection, according to high frequency of key generation. 
