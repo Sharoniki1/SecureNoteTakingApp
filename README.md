@@ -4,9 +4,9 @@ This application is intended for encrypted notes using AES. In the login window 
 percentage. The encrypted notes are locally saved on device (using shared preferences).
 
 
-![WhatsApp Image 2023-07-05 at 15 19 29](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/e7e8c422-d85c-4adc-92f3-348676d957c2) ![WhatsApp Image 2023-07-05 at 15 19 42](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/384d6966-aae4-4444-b494-057fe7831bdd)
+![WhatsApp Image 2023-07-05 at 15 19 29](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/e7e8c422-d85c-4adc-92f3-348676d957c2)    ![WhatsApp Image 2023-07-05 at 15 19 42](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/384d6966-aae4-4444-b494-057fe7831bdd)
 
-![WhatsApp Image 2023-07-05 at 15 19 57](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/5f7d7145-2233-4668-a15f-4d26e82f5c4c) ![WhatsApp Image 2023-07-05 at 15 19 49](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/ada6987b-e8da-478f-85f8-44f48c031c86)
+![WhatsApp Image 2023-07-05 at 15 19 57](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/5f7d7145-2233-4668-a15f-4d26e82f5c4c)    ![WhatsApp Image 2023-07-05 at 15 19 49](https://github.com/Sharoniki1/SecureNoteTakingApp/assets/68810288/ada6987b-e8da-478f-85f8-44f48c031c86)
 
 
 
