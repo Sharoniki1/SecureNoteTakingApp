@@ -2,22 +2,19 @@
 
 This application is intended for encrypted notes using AES. In the login window password should be provided as battery
 percentage. The encrypted notes are locally saved on device (using shared preferences).
-
-
  
-# Description:
 
-When openning the application, a login window appears. The password is the battery precentage in device. 
-After logging in, the notes were already saved before, will be decrypted and shown in the notes list screen.
+# Description
 
-Each existing note in the list is now can be read or edited. 
-At the bottom of the notes list screen there is an '+' button to create a new note.
+When the application opens, a login window appears. The identification process requires battery percentage as password.
 
-Clicking on existing note/new note will lead to the note screen. 
-After creating/editing note's content the whole data will be re-encrypted and updated to both notes list screen and device memory.
+After login in, all notes were saved before will be decrypted and shown in the notes list screen.
+At the bottom of the screen, there is a '+' button to create a new note.
 
-Re-encrypting the data after every change will provide strong detection.
+Clicking on existing note/new note button will open the note screen.
+The changes will be updated in both notes list screen and re-encrypted to device memory.
 
+Re- encrypting the whole data after every change will garentee strong detection, according to high frequency of key generation. 
 
 
 
