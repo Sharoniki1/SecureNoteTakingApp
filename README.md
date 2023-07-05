@@ -21,7 +21,7 @@ At the bottom of the screen, there is a '+' button to create a new note.
 Clicking on existing note/new note button will open the note screen and allow adding/editing.
 The changes will be updated in both notes list screen and re-encrypted to device memory.
 
-Re- encrypting the whole data after every change will guarantee strong detection, according to high frequency of key generation. 
+Re- encrypting the entire data after every change will guarantee strong detection, according to high frequency of key generation. 
 
 
 
